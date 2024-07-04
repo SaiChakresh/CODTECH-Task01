@@ -6,6 +6,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon') # Download the VADER lexicon
 
 sia = SentimentIntensityAnalyzer()
-text = "Hello My Name Is Surakshan.C"
+text = "Hello My Name Is Sai Chakresh V"
 sentiment_scores = sia.polarity_scores(text)
 print(sentiment_scores)
